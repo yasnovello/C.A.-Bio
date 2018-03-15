@@ -17,13 +17,11 @@ a {
 }
 
 a.active, a:active, a:focus, a:hover {
-  color: rgb(43, 154, 52); 
+  color: rgb(7,112,178); 
   text-decoration: none;
 }
 
-.text-primary {
-  color: rgb(43, 154, 52) !important; 
-}
+
 
 h1,
 h2,
@@ -93,7 +91,7 @@ section h3.section-subheading {
 .open > .btn-primary.dropdown-toggle {
   color: white;
   border-color: rgb(0,0,0);
-  background-color: rgb(43, 154, 52); 
+  background-color: rgb(7, 112, 178); 
 }
 
 .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
@@ -102,7 +100,7 @@ section h3.section-subheading {
 .open > .btn-primary.dropdown-toggle:hover {
   color: white;
   border-color: rgb(0,0,0);
-  background-color: rgb(43, 154, 52);
+  background-color: rgb(7, 112, 178);
 }
 
 .btn-primary.active, .btn-primary:active,
@@ -115,11 +113,11 @@ fieldset[disabled] .btn-primary.focus,
 fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary:hover {
    border-color: rgb(0,0,0);
-  background-color: rgb(43, 154, 52); 
+  background-color: rgb(7, 112, 178); 
 }
 
 .btn-primary .badge {
-  color: rgb(43, 154, 52);
+  color: rgb(7, 112, 178);
   background-color: white; 
 }
 
@@ -152,7 +150,7 @@ body {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: rgb(43, 154, 52);
+  background-color: #0770b2; 
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 }
   
@@ -163,7 +161,7 @@ body {
 }
     
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #115817;
+  color: #0770b2;
     /*#006db2*/
 }
   
@@ -177,7 +175,7 @@ body {
 }
     
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #115817; 
+  color: #0770b2; 
 }
 
 @media (min-width: 992px) {
@@ -216,7 +214,11 @@ body {
     padding: 12px 0; 
   } 
 }
-
+@media (max-width:600px){
+  .pat{
+    margin-bottom: 30px;
+  }
+}
 
 #zoo{
 
@@ -361,11 +363,11 @@ header.masthead .intro-text .intro-heading {
 
 
 #sendMessageButton{
-  background-color: rgb(43, 154, 52);
+  background-color: rgb(7, 112, 178);
 }
 
 #sendMessageButton:hover{
-  background-color: rgb(27, 109, 33);
+  background-color: rgb(5, 96, 153);
 }
 
 #modalButton{
